@@ -4,7 +4,7 @@ orbs:
   heroku: circleci/heroku@1.2.6
 
 jobs:
-  build_and_test:
+  sample:
     docker:
       - image: cimg/node:17.2.0
     steps:
@@ -35,7 +35,7 @@ jobs:
 workflows:
   test_my_app:
     jobs:
-      - build_and_test
+      - sample
       - deploy:
           requires:
-            - build_and_test # only deploy if the build_and_test job has completed
+            - sample # only deploy if the build_and_test job has completed
