@@ -1,0 +1,121 @@
+:root {
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-text-blue: linear-gradient(89.97deg, rgb(0, 82, 212) 1.84%, rgb(126 191 239) 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+
+  --color-bg: #ffffff;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+}
+
+a {
+  color: unset !important;
+  text-decoration: none !important;
+}
+
+h1{
+  font-size: 2.2rem !important;
+}
+
+.gradient__text__blue{
+  color: var(--gradient-text-blue);
+}
+
+.gradient__bg {
+  background:-moz-radial-gradient(circle at 3% 25%, rgb(0, 82, 212) 0%, rgb(126 191 239) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgb(0, 82, 212) 0%, rgb(126 191 239) 25%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgb(0, 82, 212) 0%, rgb(126 191 239) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgb(0, 82, 212) 0%, rgb(126 191 239) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgb(0, 82, 212) 0%, rgb(126 191 239) 25%);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.radar-container{
+  width: 98vw;
+  min-width: 1300px;
+  overflow: scroll;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+}
+
