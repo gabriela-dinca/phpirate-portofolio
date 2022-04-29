@@ -119,7 +119,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ADOPT',
     label: 'NestJS',
-    link: 'TBA',
+    link: 'https://nestjs.com/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -390,7 +390,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'React',
-    link: 'TBA',
+    link: 'https://reactjs.org/',
     quadrant: 'FRONTEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -400,7 +400,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'C#',
-    link: 'TBA',
+    link: 'https://en.wikipedia.org/wiki/C_Sharp_(programming_language)',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -410,7 +410,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'Behat',
-    link: 'TBA',
+    link: 'https://docs.behat.org/en/latest/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -419,8 +419,8 @@ export const ALL_ENTRIES: IEntry[] = [
   },
   {
     ring: 'TRIAL',
-    label: 'Postgres',
-    link: 'TBA',
+    label: 'PostgreSQL',
+    link: 'https://www.postgresql.org/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -430,7 +430,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'Laravel',
-    link: 'TBA',
+    link: 'https://laravel.com/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -441,7 +441,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'Express',
-    link: 'TBA',
+    link: 'https://expressjs.com/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -452,7 +452,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'AWS S3',
-    link: 'TBA',
+    link: 'https://aws.amazon.com/s3/',
     quadrant: 'TOOLS',
     skill: 'EXPERIENCED',
     tags: [
@@ -462,7 +462,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'Tailwind',
-    link: 'TBA',
+    link: 'https://tailwindcss.com/',
     quadrant: 'FRONTEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -472,7 +472,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'TRIAL',
     label: 'WPF',
-    link: 'TBA',
+    link: 'https://en.wikipedia.org/wiki/Windows_Presentation_Foundation',
     quadrant: 'FULLSTACK',
     skill: 'EXPERIENCED',
     tags: [
@@ -481,8 +481,8 @@ export const ALL_ENTRIES: IEntry[] = [
   },
   {
     ring: 'ASSESS',
-    label: 'GRAPHQL',
-    link: 'TBA',
+    label: 'GraphQL',
+    link: 'https://graphql.org/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -492,7 +492,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'Golang',
-    link: 'TBA',
+    link: 'https://go.dev/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -502,7 +502,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'Flutter',
-    link: 'TBA',
+    link: 'https://flutter.dev/',
     quadrant: 'FULLSTACK',
     skill: 'EXPERIENCED',
     tags: [
@@ -512,7 +512,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'Kubernetes',
-    link: 'TBA',
+    link: 'https://kubernetes.io/',
     quadrant: 'TOOLS',
     skill: 'EXPERIENCED',
     tags: [
@@ -522,7 +522,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'Bash',
-    link: 'TBA',
+    link: 'https://www.gnu.org/software/bash/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -532,7 +532,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'Redis',
-    link: 'TBA',
+    link: 'https://redis.io/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -542,7 +542,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'RabbitMQ',
-    link: 'TBA',
+    link: 'https://www.rabbitmq.com/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -552,7 +552,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'ASSESS',
     label: 'Stryker Mutator',
-    link: 'TBA',
+    link: 'https://stryker-mutator.io/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -562,7 +562,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'HOLD',
     label: 'jQuery',
-    link: 'TBA',
+    link: 'https://jquery.com/',
     quadrant: 'FRONTEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -572,7 +572,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'HOLD',
     label: 'CodeIgniter',
-    link: 'TBA',
+    link: 'https://www.codeigniter.com/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -582,7 +582,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'HOLD',
     label: 'Pimcore',
-    link: 'TBA',
+    link: 'https://pimcore.com/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -592,7 +592,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'HOLD',
     label: 'Pascal',
-    link: 'TBA',
+    link: 'https://en.wikipedia.org/wiki/Turbo_Pascal',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -602,7 +602,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'HOLD',
     label: 'Oracle Database',
-    link: 'TBA',
+    link: 'https://www.oracle.com/database/',
     quadrant: 'BACKEND',
     skill: 'EXPERIENCED',
     tags: [
@@ -612,7 +612,7 @@ export const ALL_ENTRIES: IEntry[] = [
   {
     ring: 'HOLD',
     label: 'Winforms',
-    link: 'TBA',
+    link: 'https://en.wikipedia.org/wiki/Windows_Forms',
     quadrant: 'FULLSTACK',
     skill: 'EXPERIENCED',
     tags: [
