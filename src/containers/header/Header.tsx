@@ -36,7 +36,7 @@ export class Header extends React.Component {
             <div className="hero__intro__texts text-center text-md-left col-12 col-md-3 offset-md-1 gutters-off mb-1">
               <p className="hero__social mb-1">
                 <a href="https://www.linkedin.com/in/gabriela-d" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-                <a href="https://github.com/gabriela-dinca" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+                {/*<a href="https://github.com/gabriela-dinca" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>*/}
               </p>
               <h1 className="gradient__text__blue">
                 {firstLine}
