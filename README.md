@@ -31,9 +31,7 @@ yarn build
 Build on [yaneek's tech-radar](https://github.com/yaneek/tech-radar).
 - Thanks yaneek for enhancing the original radar with
    - extracted tens of visualization functions
-   - added React library to render filters & footer
    - build based on [react-create-app](https://github.com/facebook/create-react-app)
-   - deployment on Github pages with Travis
    - enabled Typescript support
 
 Build on [Zalando's tech-radar](https://github.com/zalando/tech-radar).

@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="portofolio__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><Resume></Resume></p>
-          <p><a href="#radar">Tech RadAAARRrrrr</a></p>
+          <p><a href="#radar">Tech Tadar</a></p>
         </div>
       </div>
       <div className="portofolio__navbar-sign">
@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className="portofolio__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
             <p><Resume></Resume></p>
-            <p><a href="#radar">Tech RadAAARRrrrr</a></p>
+            <p><a href="#radar">Tech Tadar</a></p>
           </div>
         </div>
         )}

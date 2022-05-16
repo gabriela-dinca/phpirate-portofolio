@@ -97,7 +97,7 @@ export class AppContainer extends React.Component<IAppProps, IAppState>{
       <div className="container my-5">
         <div className="row">
           <div className="col-12">
-            <h1 className="gradient__text">What my Tech RadAAARRrrrr looks like</h1>
+            <h1 className="gradient__text">What my Tech Radar looks like</h1>
           </div>
         </div>
       </div>

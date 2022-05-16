@@ -1,8 +1,8 @@
 {
-  "name": "pirate-portofolio",
+  "name": "tech-stack",
   "version": "0.0.1",
-  "description": "Portofolio",
-  "homepage": "https://phpirate-portofolio-kcvju2mmp-gabriela-dinca.vercel.app/",
+  "description": "Tech Stack",
+  "homepage": "#",
   "license": "MIT",
   "private": true,
   "directories": {
@@ -14,7 +14,8 @@
     "lodash.intersection": "^4.4.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-	  "react-scripts": "^3.3.0"
+    "react-scripts": "^3.3.0",
+    "react-terminal-component": "^1.5.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -34,12 +35,12 @@
     "react-typed": "^1.2.0",
     "typescript": "^3.7.4"
   },
-	"scripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-	"lint:js": "eslint src/**/*.{js,jsx}"
+    "lint:js": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": [
@@ -63,6 +64,6 @@
   ],
   "author": "gabriela dinca",
   "bugs": {
-    "url": "https://github.com/gabriela-dinca/pirate-portofolio/issues"
+    "url": "https://github.com/gabriela-dinca/tech-stack/issues"
   }
 }
