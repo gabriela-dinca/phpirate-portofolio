@@ -1,5 +1,5 @@
-# Pirate portofolio
-Quick hack portofolio where I try to remember how to use bootstrap and material after using only tailwind for a while
+# Portofolio
+Quick hack portofolio where I try to remember how to use React combining bootstrap and material... after using only tailwind for a while
 
 ## Local Development
 
