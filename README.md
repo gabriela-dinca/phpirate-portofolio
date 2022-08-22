@@ -24,19 +24,3 @@ yarn dev
 ```bash
 yarn build
 ```
-
-
-## History
-
-Build on [yaneek's tech-radar](https://github.com/yaneek/tech-radar).
-- Thanks yaneek for enhancing the original radar with
-   - extracted tens of visualization functions
-   - build based on [react-create-app](https://github.com/facebook/create-react-app)
-   - enabled Typescript support
-
-Build on [Zalando's tech-radar](https://github.com/zalando/tech-radar).
-- Thanks to Zalando's team for their code.
-   - Base project was completely refactored but visualization concepts still exists :)
-
-   
-
